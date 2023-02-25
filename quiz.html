@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "quiz.css">
+    <title>Test - Quiz</title>
+</head>
+<body>
+    <form method="post" name="form">
+        <div class="qustion">
+            <p>1. Ինչ արժեք է վերադարցնում Boolean օպերատորը?</p>
+            <ol>
+                <li>
+                    <label><input type="radio" name="qustion-0" value="1"> True/False</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-0" value="2"> NaN</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-0" value="3"> Undefined</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-0" value="4"> Null</label>
+                </li>
+            </ol>
+        </div>
+        <div class="qustion">
+            <p>2. Որն է JavaScript-ի ստանդարտը?</p>
+            <ol>
+                <li>
+                    <label><input type="radio" name="qustion-1" value="1"> TypeScript</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-1" value="2"> CoffeeScript</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-1" value="3"> EcmaScript</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-1" value="4"> LiveScript</label>
+                </li>
+            </ol>
+        </div>
+        <div class="qustion">
+            <p>3. Որ տվյալի տիպի մեթոդ է հանդիսանում apply()-ը?</p>
+            <ol>
+                <li>
+                    <label><input type="radio" name="qustion-2" value="1"> String</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-2" value="2"> Number</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-2" value="3"> Array</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-2" value="4"> Function</label>
+                </li>
+            </ol>
+        </div>
+        <div class="qustion">
+            <p>4. Որ տվյալի տիպերն են պահվում stack-ում?</p>
+            <ol>
+                <li>
+                    <label><input type="radio" name="qustion-3" value="1"> Reference</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-3" value="2"> Primitive</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-3" value="3"> Primitiv և reference փոփոխականների անունները</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-3" value="4"> Ոչ մի</label>
+                </li>
+            </ol>
+        </div>
+        <div class="qustion">
+            <p>5. Ինչ միջակայքի թիվ է վերադարձնում Math.random()-ը?</p>
+            <ol>
+                <li>
+                    <label><input type="radio" name="qustion-4" value="1"> (0,1]</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-4" value="2"> [0,100)</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-4" value="3"> (0,100]</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="qustion-4" value="4"> [0,1)</label>
+                </li>
+            </ol>
+        </div>
+        <button type="button" name="button" id="prev">Prev</button>
+        <button type="button" name="button" id="next">Next</button>
+        <div id="result"></div>
+    </form>
+    <script src = "quiz.js"></script>
+</body>
+</html>
